@@ -2,7 +2,7 @@ import { useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import ResponsiveMenu from "./ResponsiveMenu";
-// #83C5BE
+//
 const navberData =[
     {
         id:1,
@@ -31,7 +31,7 @@ const Navber = () => {
     return (
         <>
         <nav>
-            <div className="max-w-6xl mx-auto p-4 flex justify-between items-center">
+            <div className="max-w-6xl mx-auto p-4 flex justify-between items-center border-b-2 border-black/30">
             {/* logo */}
             <div>
                 <h1 className="text-xl font-mono font-bold text-[#83C5BE]">Doctors-<span className="text-red-500">Live</span></h1>
@@ -46,9 +46,9 @@ const Navber = () => {
 
             </div>
             {/* login btn */}
-            <div>
-                <button className="text-lg font-mono font-semibold text-white rounded-xl px-6 py-2 bg-[#83C5BE]">
-                    Login
+            <div className="hidden md:block">
+                <button className="font-thin text-white rounded-full px-6 py-2 bg-[#83C5BE]">
+                    Create account
                 </button>
             </div>
             {/* mobile navber */}
