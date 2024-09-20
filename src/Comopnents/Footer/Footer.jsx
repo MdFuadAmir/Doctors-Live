@@ -1,0 +1,43 @@
+
+
+const Footer = () => {
+    return (
+        <div className="mt-12">
+            <footer className="footer bg-base-200 text-base-content p-10">
+  <aside>
+  <div>
+                <h1 className="text-xl font-mono font-bold text-[#83C5BE]">Doctors-<span className="text-red-500">Live</span></h1>
+            </div>
+    <p className="max-w-sm">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, labore quaerat perferendis inventore nesciunt, quidem amet laborum voluptatum aut itaque iusto error nostrum aliquam maiores illo consequuntur corporis ut esse.
+      
+      
+    </p>
+  </aside>
+  <nav>
+    <h6 className="footer-title">Services</h6>
+    <a className="link link-hover">Branding</a>
+    <a className="link link-hover">Design</a>
+    <a className="link link-hover">Marketing</a>
+    <a className="link link-hover">Advertisement</a>
+  </nav>
+  <nav>
+    <h6 className="footer-title">Company</h6>
+    <a className="link link-hover">About us</a>
+    <a className="link link-hover">Contact</a>
+    <a className="link link-hover">Jobs</a>
+    <a className="link link-hover">Press kit</a>
+  </nav>
+  <nav>
+    <h6 className="footer-title">Legal</h6>
+    <a className="link link-hover">Terms of use</a>
+    <a className="link link-hover">Privacy policy</a>
+    <a className="link link-hover">Cookie policy</a>
+  </nav>
+</footer>
+            
+        </div>
+    );
+};
+
+export default Footer;
